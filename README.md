@@ -1,2 +1,2 @@
 # Programacion-WEB-III Par"A"
-Herlna Fabio Quispe Pari
+Herlan Fabio Quispe Pari
