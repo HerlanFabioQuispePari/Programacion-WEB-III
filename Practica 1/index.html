@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: cornflowerblue;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin: 15px;
+            transition: 250ms;
+        }
+        a:hover {
+            background-color: crimson;
+        }
+        main,
+        header {
+            padding: 10px 70px;
+        }
+        .img1,.img2,.img3,.img4,.img5 {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            margin: 15px 0px;
+        }
+        .padre {
+            display: flex;
+        }
+        .hijo1 {
+            width: 50%;
+        }
+        .img1 {
+            background-image: url('img/L1.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .img2 {
+            background-image: url('img/L2.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .img3 {
+            background-image: url('img/L3.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .img4 {
+            background-image: url('img/L4.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .img5 {
+            background-image: url('img/L5.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1>LAYOUT</h1>
+            <a href="Layout/Layout1.html" target="_blank">Layout 1</a>
+            <a href="Layout/Layout2.html" target="_blank">Layout 2</a>
+            <a href="Layout/Layout3.html" target="_blank">Layout 3</a>
+            <a href="Layout/Layout4.html" target="_blank">Layout 4</a>
+            <a href="Layout/Layout5.html" target="_blank">Layout 5</a>
+        </center>
+    </header>
+    <main>
+        <section>
+            <h2>Tipos de Layout en Dieño Web</h2>
+            <p>
+                Se han desarrollado distintos tipos de layouts para adaptarse a diferentes necesidades y dispositivos.
+                Algunos de los más comunes son:
+            </p>
+        </section>
+        <div class="padre">
+            <div class="hijo1">
+                <h3>1. Layout de Una Columna</h3>
+                <ul>
+                    <li>Estructura simple y lineal.</li>
+                    <li>Se utiliza en blogs y páginas de lectura prolongada.</li>
+                    <li><b>Ejemplo:</b></li>
+                    <div class="img1"></div>
+                </ul>
+                <h3>2. Layout de Dos Columnas</h3>
+                <ul>
+                    <li>Se divide en una columna principal y una barra lateral.</li>
+                    <li>Se usa en sitios de noticias y blogs.</li>
+                    <li><b>Ejemplo:</b></li>
+                    <div class="img2"></div>
+                </ul>
+                <h3>3. Layout de Tres Columnas</h3>
+                <ul>
+                    <li>Incluye una columna central y dos barras laterales.</li>
+                    <li>Se usa en sitios con gran cantidad de contenido estructurado, como portales de noticias o
+                        tiendas en línea.</li>
+                    <li><b>Ejemplo:</b></li>
+                    <div class="img3"></div>
+                </ul>
+            </div>
+            <div class="hijo1">
+                <h3>4. Layout Tipo Tarjetas (Card Layout)</h3>
+                <ul>
+                    <li>Organiza el contenido en bloques rectangulares.</li>
+                    <li>Común en plataformas como Pinterest o dashboards.</li>
+                    <li><b>Ejemplo:</b></li>
+                    <div class="img4"></div>
+                </ul>
+                <h3>5. Layout de Cuadrícula (Grid Layout)</h3>
+                <ul>
+                    <li>Usa CSS Grid para distribuir los elementos.</li>
+                    <li>Muy flexible y adaptable a diferentes tamaños de pantalla.</li>
+                    <li><b>Ejemplo:</b></li>
+                    <div class="img5"></div>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

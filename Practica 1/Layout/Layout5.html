@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 5</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            text-align: center;
+            align-content: center;
+        }
+
+        .header {
+            background-color: cornflowerblue;
+            height: 150px;
+        }
+
+        .contenido {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .card {
+            background-color: aliceblue;
+            height: 200px;
+            border: 3px solid black;
+
+        }
+
+        .footer {
+            background-color: coral;
+            height: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">Header</div>
+    <div class="contenido">
+        <div class="card">A</div>
+        <div class="card">B</div>
+        <div class="card">C</div>
+        <div class="card">D</div>
+        <div class="card">E</div>
+        <div class="card">F</div>
+    </div>
+    <div class="footer">Footer</div>
+</body>
+
+</html>
